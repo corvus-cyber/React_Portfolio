@@ -3,6 +3,7 @@ import { HashRouter, Route, Link } from "react-router-dom";
 import Footer from "./components/Footer/Footer"
 import Navbar from "./components/Navbar/Navbar"
 import Wrapper from "./components/Wrapper/index"
+import About from "./pages/About"
 import './App.css';
 
 function App() {
@@ -11,6 +12,8 @@ function App() {
       <div>
         <Navbar /> 
         <Wrapper>
+        <Route exact path="/" component={About} />
+          <Route exact path="/about" component={About}/>
         </Wrapper>
         <Footer />
       </div>
