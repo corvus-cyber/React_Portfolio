@@ -1,0 +1,64 @@
+/* Formatting for all of the pages */
+
+h1 {
+    display: inline-block;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 35px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: black; 
+}
+h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif;
+}
+h6{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
+
+.img-fluid {
+
+    max-width: 400px;
+}
+            /*Provides background color for the different columns in the index page*/
+                .aboutMe {
+                 background-color:#ffffff;
+                 box-shadow: 0 0 5px}
+                .Education {
+                    background-color:#ffffff;
+                    padding-top: 2%;
+                    padding-left: 2%;
+                    margin-bottom: 2%;
+                    box-shadow: 0 0 5px
+                }
+                .indent {
+                    text-indent: 4%;
+                }
+                .skills {
+                    background-color:#ffffff;
+                    padding-left: 2%;
+                    padding-right: 2%;
+                    box-shadow: 0 0 5px
+                }
+                #titleSkills {
+                    margin-right: 5%;
+                }
+
+.list{
+    list-style-type: none;
+    display: inline-block
+}

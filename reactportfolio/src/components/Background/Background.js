@@ -1,6 +1,8 @@
 import React from "react";
 import "../Styles/style.css"
+import "./style.css"
 import ProfilePic from "../../assets/images/profile.jpg"
+import Education from "../Education/Education"
 function Background(){
     return (
         <div className="row m-2">
@@ -22,9 +24,12 @@ function Background(){
                 where I began to learn about the rapidly growing opportunities here in the valley.
                 Having enjoyed the data-analysis background that I acquired during my major, I have decided to pursue web-development as I will be able to take my love for creative problem solving and apply it within a growing industry. 
                 </p>
-                
             </div>
-        </div>   
+            {/* <!--Education Section--> */}
+            <div class="col-md-4 mt-3 ml-2 mr-2 ">
+                <Education/>
+            </div>
+        </div>     
     );
 }
 
