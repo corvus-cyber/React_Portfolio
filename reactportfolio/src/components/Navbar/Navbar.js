@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../Styles/style.css";
 import Logo from "../../assets/logo/refined-logo.png"
+import Resume from "../../assets/resume/Developer.png"
 
 
 function Navbar() {
@@ -17,20 +18,27 @@ function Navbar() {
             <ul className="navbar-nav ml-auto navFont">
                 <li className="nav-item">
                     <Link
-                        to="/" className={window.location.pathname === "/" || window.location.pathname === "/about" ? "nav-link active" : "nav-link"
-                    }
-                >
-                About
-                </Link>
+                        to="/" className={window.location.pathname === "/" || window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
+                    >
+                    About
+                    </Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="assets/resume/Developer.pdf" download="resume">Resume</a>
+                    <a className="nav-link" href={Resume} download="resume">Resume</a>
                 </li>
                 <li className="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    <Link
+                            to="/portfolio" className={window.location.pathname === "/portfolio" || window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
+                    >
+                    Portfolio
+                    </Link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <Link
+                            to="/contact" className={window.location.pathname === "/contact" || window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+                    >
+                    Contact
+                    </Link>
                 </li>
             </ul>
         </div>
