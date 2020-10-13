@@ -4,6 +4,7 @@ import Footer from "./components/Footer/Footer"
 import Navbar from "./components/Navbar/Navbar"
 import Wrapper from "./components/Wrapper/index"
 import About from "./pages/About"
+import Portfolio from "./pages/Portfolio"
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Wrapper>
         <Route exact path="/" component={About} />
           <Route exact path="/about" component={About}/>
+          <Route exact path="/portfolio" component={Portfolio}/>
         </Wrapper>
         <Footer />
       </div>

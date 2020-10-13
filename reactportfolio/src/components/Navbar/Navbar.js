@@ -11,37 +11,37 @@ function Navbar() {
             <div className="navbar-brand">
                 <img className="img-fluid" src={Logo} alt="Wyatt portfolio website"/>
             </div>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
+            <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="navbarMenu">
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarMenu">
-            <ul className="navbar-nav ml-auto navFont">
-                <li className="nav-item nav-link">
-                    <Link
-                        to="/" className={window.location.pathname === "/" || window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
-                    >
-                    About
-                    </Link>
-                </li>
-                <li className="nav-item nav-link">
-                    <a className="nav-link" href={Resume} download="resume">Resume</a>
-                </li>
-                <li className="nav-item nav-link">
-                    <Link
-                            to="/portfolio" className={window.location.pathname === "/portfolio" || window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
-                    >
-                    Portfolio
-                    </Link>
-                </li>
-                <li class="nav-item nav-link">
-                    <Link
-                            to="/contact" className={window.location.pathname === "/contact" || window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
-                    >
-                    Contact
-                    </Link>
-                </li>
-            </ul>
-        </div>
+                <ul className="navbar-nav ml-auto navFont">
+                    <li className="nav-item nav-link">
+                        <Link
+                            to="/" className={window.location.pathname === "/" || window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
+                        >
+                        About
+                        </Link>
+                    </li>
+                    <li className="nav-item nav-link">
+                        <a className="nav-link" href={Resume} download="resume">Resume</a>
+                    </li>
+                    <li className="nav-item nav-link">
+                        <Link
+                                to="/portfolio" className={window.location.pathname === "/portfolio" || window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
+                        >
+                        Portfolio
+                        </Link>
+                    </li>
+                    <li class="nav-item nav-link">
+                        <Link
+                                to="/contact" className={window.location.pathname === "/contact" || window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+                        >
+                        Contact
+                        </Link>
+                    </li>
+                </ul>
+            </div>
 
 
         
