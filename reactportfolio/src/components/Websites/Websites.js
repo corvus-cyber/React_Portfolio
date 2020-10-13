@@ -1,5 +1,4 @@
 import React from "react";
-import "../Styles/style.css"
 import "./style.css"
 import Exodus from "../../assets/PortfolioPics/EXODUS.png"
 import Scout19 from "../../assets/PortfolioPics/Scout19.png"
@@ -15,8 +14,8 @@ import Fitness from "../../assets/PortfolioPics/fitness.png"
 function Websites(){
     return (
         <div>
-            <div className="row m-4">
-                    <div className="col-md-12 mt-4 text-center" id="Portfolio-heading">
+            <div className="row m-4 justify-content-center">
+                    <div className="col-md-10 mt-4 text-center title" id="Portfolio-heading">
                     <h3>Websites</h3>
                     <hr/>
                     </div>
