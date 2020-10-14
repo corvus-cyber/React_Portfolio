@@ -22,7 +22,7 @@ export default class Navbar extends Component {
             <div className="navbar-brand">
                 <img className="img-fluid" src={Logo} alt="Wyatt portfolio website"/>
             </div>
-            <button className="navbar-toggler" type="button" onClick={ this.toggleMenu }>
+            <button className="navbar-toggler ml-auto" type="button" onClick={ this.toggleMenu }>
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className={"collapse navbar-collapse " + show}>
@@ -61,4 +61,3 @@ export default class Navbar extends Component {
     );
     }
 }
-  

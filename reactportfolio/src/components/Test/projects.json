@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "title": "Exodus",
+      "href": "https://github.com/corvus-cyber/Project_Exodus",
+      
+      "description":{ 
+        "description":"Choose-your-own adventure game which tracks your progress and number of failed attempts.",
+        "href":"https://exodus-escape.herokuapp.com/"
+      },
+      "technologies": "Technologies Used : Node, Express, SocketIO, MySQL, Handlebars",
+      "picture": "./PortfolioPics/EXODUS.png"
+    }
+]
+  
