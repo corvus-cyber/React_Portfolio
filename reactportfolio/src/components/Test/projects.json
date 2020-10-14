@@ -9,7 +9,83 @@
         "href":"https://exodus-escape.herokuapp.com/"
       },
       "technologies": "Technologies Used : Node, Express, SocketIO, MySQL, Handlebars",
-      "picture": "./PortfolioPics/EXODUS.png"
+      "pictures": "./assets/PortfolioPics/EXODUS.png"
+    },
+    {
+      "id": 2,
+      "title": "Scout19",
+      "href": "https://github.com/corvus-cyber/SCOUT19",
+      
+      "description":{ 
+        "description":"Mobile-first application that allows the user to track covid outbreaks across the US.",
+        "href":"https://corvus-cyber.github.io/SCOUT19/"
+      },
+      "technologies": "Technologies Used : Third-Party API's, Materialize CSS, Javascript, Jquery, HTML",
+      "pictures": "./assets/PortfolioPics/Scout19.png"
+    },
+    {
+      "id": 3,
+      "title": "Employee Directory",
+      "href": "https://https://github.com/corvus-cyber/Employee_Directory_Assign19",
+      
+      "description":{ 
+        "description":"My first React application that allows the user to search through a directory",
+        "href":"https://corvus-cyber.github.io/Employee_Directory_Assign19/"
+      },
+      "technologies": "Technologies Used : React, React-router-dom, JSV",
+      "pictures": "./assets/PortfolioPics/empDirectory.png"
+    },
+    {
+      "id": 4,
+      "title": "Budget Tracker",
+      "href": "https://github.com/corvus-cyber/Online-Offline_Budget_Tracker_Assign18",
+      
+      "description":{ 
+        "description":"A PWA application that will track your budget both online and offline",
+        "href":"https://budget-tracker-u-of-u.herokuapp.com/"
+      },
+      "technologies": "Technologies Used : Express, Mongoose, MongoDB, Compression, Lite-server, Javascript",
+      "pictures": "./assets/PortfolioPics/EXODUS.png"
+    },
+    {
+      "id": 5,
+      "title": "Fitness Tracker",
+      "href": "https://https://github.com/corvus-cyber/Fitness_Tracker_Assign17",
+      
+      "description":{ 
+        "description":"A website that uses mongodb in order to let users record their workouts and have them displayed on the dashboard",
+        "href":"https://fitness-tracker-u-of-u.herokuapp.com/"
+      },
+      "technologies": "Technologies Used : Express, Mongoose, MongoDB, Javascript",
+      "pictures": "./assets/PortfolioPics/EXODUS.png"
+    },
+    {
+      "id": 6,
+      "title": "Burger Logger",
+      "href": "https://github.com/corvus-cyber/burger_logger_website",
+      
+      "description":{ 
+        "description":"A website that uses mySQL in order to let users record different 'dream burgers' and have them displayed on the dashboard, and allowing them to edit their status.",
+        "href":"https://eat-da-burger-unit13.herokuapp.com/"
+      },
+      "technologies": "Technologies Used : MySQL, Javascript, Express, Express-handlers",
+      "pictures": "./assets/PortfolioPics/EXODUS.png"
+    },
+    {
+      "id": 7,
+      "title": "Note Taker",
+      "href": "https://github.com/corvus-cyber/Note_Taker_Assign11",
+      
+      "description":{ 
+        "description":"This application allows the user to create, edit, view and delete notes (CRUD). This note data is stored in the backend within a JSON file.",
+        "href":"https://uounotetakerassign11.herokuapp.com/"
+      },
+      "technologies": "Technologies Used : HTML, Bootstrap CSS, Node, Express",
+      "pictures": "./assets/PortfolioPics/EXODUS.png"
     }
+
+
+
+
 ]
   

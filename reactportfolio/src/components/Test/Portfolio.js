@@ -56,7 +56,7 @@ render(){
                 
                     {this.state.projects.map(project => (             
                       <Projects 
-                          image = {this.state.img.map(i => i)}
+                          image = {project.pictures}
                           id = {project.id}
                           title= {project.title}
                           github = {project.href}
