@@ -12,7 +12,7 @@ function CLA(){
                 <hr/>
             </div>
         </div> 
-        <div className="row text-center justify-content-center"> 
+        <div className="row text-center justify-content-center" style={{marginRight: 0 + "px"}}> 
             {/* <!--Employee Tracker Card--> */}
             <div className="col-md-4-block mt-2 ml-4 mr-4 text-center">
                 <div className="card pt-3" style={{width: 18 + "rem"}}>

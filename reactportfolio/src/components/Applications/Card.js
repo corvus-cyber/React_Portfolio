@@ -10,7 +10,6 @@ export default function Card(props) {
 
   console.log(props.image);
     return (
-      <div className="row text-center justify-content-center"> 
         <div className="mr-2 ml-2">
           <div className="col-md-4 mr-5 ml-5 mt-5 text-center justify-content-center">
             <div className="card" style={{width: 18 + "rem"}}>
@@ -36,7 +35,6 @@ export default function Card(props) {
             </div> 
           </div> 
         </div>
-      </div>  
       
     )
 }

@@ -31,7 +31,7 @@ render(){
         
 
             <div className="text-center">
-              <div className="row">
+              <div className="row" style={{marginRight: 0 + "px"}}>
                 
                     {this.state.applications.map(app => (             
                       <Card
