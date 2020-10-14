@@ -8,7 +8,7 @@ function Background(){
         <div className="row m-2">
             <div class="col-md-7 mt-3 ml-2 mr-2 pt-2 aboutMe">
                 <h2>About Me</h2>
-                <img class="mainIMG img-fluid float-left p-4" src={ProfilePic} alt="Wyatt in suit"></img>
+                <img class="mainIMG img-fluid float-left p-4" src={ProfilePic} alt="Wyatt"></img>
                 <p>Born and raised in the great Pacific Northwest, the gloomy weather encouraged me from a young age to embrace reading. 
                 Until I was eighteen most of my time was spent with my nose in a book, completely spellbound by characters like Harry Potter, Kaladin, Aragorn and Percy Jackson.  
                 I attended a high school where our team name were the “Papermakers” and our mascot was a robot known as the Mean Machine; to this day I don’t really know what a “Mean Machine” actually is. 

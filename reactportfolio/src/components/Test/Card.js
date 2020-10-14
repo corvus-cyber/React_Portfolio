@@ -4,7 +4,7 @@ import {
 } from "react-icons/bs";
  
 
-export default function Projects(props) {
+export default function Card(props) {
 
 
   console.log(props.image);

@@ -9,7 +9,7 @@
         "href":"https://exodus-escape.herokuapp.com/"
       },
       "technologies": "Technologies Used : Node, Express, SocketIO, MySQL, Handlebars",
-      "pictures": "./assets/PortfolioPics/EXODUS.png"
+      "pictures": "../../assets/PortfolioPics/EXODUS.png"
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
         "href":"https://corvus-cyber.github.io/SCOUT19/"
       },
       "technologies": "Technologies Used : Third-Party API's, Materialize CSS, Javascript, Jquery, HTML",
-      "pictures": "./assets/PortfolioPics/Scout19.png"
+      "pictures": "../../assets/PortfolioPics/Scout19.png"
     },
     {
       "id": 3,
@@ -33,7 +33,7 @@
         "href":"https://corvus-cyber.github.io/Employee_Directory_Assign19/"
       },
       "technologies": "Technologies Used : React, React-router-dom, JSV",
-      "pictures": "./assets/PortfolioPics/empDirectory.png"
+      "pictures": "../../assets/PortfolioPics/empDirectory.png"
     },
     {
       "id": 4,
@@ -45,7 +45,7 @@
         "href":"https://budget-tracker-u-of-u.herokuapp.com/"
       },
       "technologies": "Technologies Used : Express, Mongoose, MongoDB, Compression, Lite-server, Javascript",
-      "pictures": "./assets/PortfolioPics/EXODUS.png"
+      "pictures": "../../assets/PortfolioPics/budget.png"
     },
     {
       "id": 5,
@@ -57,7 +57,7 @@
         "href":"https://fitness-tracker-u-of-u.herokuapp.com/"
       },
       "technologies": "Technologies Used : Express, Mongoose, MongoDB, Javascript",
-      "pictures": "./assets/PortfolioPics/EXODUS.png"
+      "pictures": "../../assets/PortfolioPics/fitness.png"
     },
     {
       "id": 6,
@@ -69,7 +69,7 @@
         "href":"https://eat-da-burger-unit13.herokuapp.com/"
       },
       "technologies": "Technologies Used : MySQL, Javascript, Express, Express-handlers",
-      "pictures": "./assets/PortfolioPics/EXODUS.png"
+      "pictures": "../../assets/PortfolioPics/burger-deployed.png"
     },
     {
       "id": 7,
@@ -81,7 +81,7 @@
         "href":"https://uounotetakerassign11.herokuapp.com/"
       },
       "technologies": "Technologies Used : HTML, Bootstrap CSS, Node, Express",
-      "pictures": "./assets/PortfolioPics/EXODUS.png"
+      "pictures": "../../assets/PortfolioPics/note-taker.png"
     }
 
 
