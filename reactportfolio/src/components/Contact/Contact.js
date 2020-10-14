@@ -1,6 +1,12 @@
 import React from "react";
 import "../Styles/style.css"
 import Contactpic from "../../assets/images/contactpic.jpg"
+import {
+    FaGithubSquare,
+    FaLinkedin,
+    FaEnvelope,
+    FaPhoneAlt,
+  } from "react-icons/fa";
 function ContactContainer(){
     return(
         <div className="container-md mt-4 p-2 pb-5 mb-5 bg-silver contactContainer">
@@ -16,26 +22,25 @@ function ContactContainer(){
             </div>
             <div className="row ml-4 mr-4">
             <div className="col-md-12 contactInfo">
-                <i className="fas fa-phone"></i>
-                <a href="tel:503-860-1251">503-860-1251</a>
+                <a href="tel:503-860-1251"><FaPhoneAlt /> 503-860-1251</a>
             </div>
             </div>
             <div className="row">
             <div className="col-md-12 contactInfo">
-                <i className="far fa-envelope"></i>
-                <a href = "mailto: wyatta.hancock@gmail.com">Send Email</a>
+                {/* <i className="far fa-envelope"></i> */}
+                <a href = "mailto: wyatta.hancock@gmail.com"><FaEnvelope /> Send Email</a>
             </div>
             </div>
             <div className="row ml-4 mr-4">
             <div className="col-md-12 contactInfo">
-                <i className="fab fa-github"></i>
-                <a href="https://github.com/corvus-cyber" target="_blank" rel="noopener noreferrer">Github Profile</a>
+                {/* <i className="fab fa-github"></i> */}
+                <a href="https://github.com/corvus-cyber" target="_blank" rel="noopener noreferrer"><FaGithubSquare/> Github Profile</a>
             </div>     
             </div>
             <div className="row ml-4 mr-4 mb-2">
             <div className="col-md-12 contactInfo">
                 <i className="fab fa-linkedin"></i>
-                <a href="https://linkedin.com/in/wyatt-a-hancock-885705166" target="_blank" rel="noopener noreferrer">Linkedin Profile</a>
+                <a href="https://linkedin.com/in/wyatt-a-hancock-885705166" target="_blank" rel="noopener noreferrer"><FaLinkedin/>Linkedin Profile</a>
             </div>
             </div>
       </div>

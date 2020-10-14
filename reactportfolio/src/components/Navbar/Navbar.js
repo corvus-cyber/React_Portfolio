@@ -4,7 +4,6 @@ import "./style.css";
 import Logo from "../../assets/logo/refined-logo.png"
 import Resume from "../../assets/resume/Developer.png"
 
-
 function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light absolute-top">
