@@ -82,7 +82,32 @@
       },
       "technologies": "Technologies Used : HTML, Bootstrap CSS, Node, Express",
       "pictures": "../../assets/PortfolioPics/note-taker.png"
+    },
+    {
+      "id": 8,
+      "title": "Weather Dashboard",
+      "href": "https://github.com/corvus-cyber/Weather_Dashboard_Assign6",
+      
+      "description":{ 
+        "description":"This application allows the user to create, edit, view and delete notes (CRUD). This note data is stored in the backend within a JSON file.",
+        "href":"https://corvus-cyber.github.io/weather_dashboard_assign6/"
+      },
+      "technologies": "Technologies Used : HTML, Bootstrap CSS, Javascript, Jquery, server-side API, localstorage",
+      "pictures": "../../assets/PortfolioPics/weatherDashboard.png"
+    },
+    {
+      "id": 9,
+      "title": "Daily Scheduler",
+      "href": "https://github.com/corvus-cyber/Scheduler_Assign5",
+      
+      "description":{ 
+        "description":"This application allows the user edit a schedule that is color-coded based on whether the hour was past, present or future, changing as the day progresses.",
+        "href":"https://corvus-cyber.github.io/Scheduler_Assign5/"
+      },
+      "technologies": "Technologies Used : HTML, Bootstrap CSS, Javascript, Jquery",
+      "pictures": "../../assets/PortfolioPics/Scheduler.png"
     }
+
 
 
 

@@ -28,21 +28,14 @@ render(){
   return(
     <div>
       <div id="portfolio">
-        <div className="apps padding">
-          <div className="container">
-            <div className="row">
-              <header className="text-center">
-                <h2 className="text-center">apps</h2>
-              </header>
-            </div>
-            <br />
-            <br />
+        
 
             <div className="text-center">
               <div className="row">
                 
                     {this.state.applications.map(app => (             
                       <Card
+                          key = {app.id}
                           image = {app.pictures}
                           id = {app.id}
                           title= {app.title}
@@ -57,8 +50,6 @@ render(){
             </div>
           </div>
         </div>
-      </div>
-    </div>
   );
 }
 }

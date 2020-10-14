@@ -6,7 +6,7 @@ import Wrapper from "./components/Wrapper/index"
 import About from "./pages/About"
 import Portfolio from "./pages/Portfolio"
 import Contact from "./pages/Contact"
-import Test from "./components/Test/Portfolio"
+
 import './App.css';
 
 function App() {
@@ -19,7 +19,6 @@ function App() {
           <Route exact path="/about" component={About}/>
           <Route exact path="/portfolio" component={Portfolio}/>
           <Route exact path="/contact" component={Contact}/>
-          <Route exact path="/test" component={Test}/>
         </Wrapper>
         <Footer />
       </div>
