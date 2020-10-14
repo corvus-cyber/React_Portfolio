@@ -16,7 +16,7 @@ function CLA(){
             {/* <!--Employee Tracker Card--> */}
             <div className="col-md-4-block mt-2 ml-4 mr-4 text-center">
                 <div className="card pt-3" style={{width: 18 + "rem"}}>
-                    <img src={Employee} className="card-img-top" alt="Image representing the employee tracker app"/>
+                    <img src={Employee} className="card-img-top" alt="employee tracker app"/>
                         <div className="card-body">
                             <h5>Employee Tracker</h5>
                             <a href="https://github.com/corvus-cyber/Employee_Tracker_Assign12" className="card-link">Github</a>

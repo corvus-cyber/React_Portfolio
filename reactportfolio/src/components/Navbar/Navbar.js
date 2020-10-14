@@ -33,7 +33,7 @@ function Navbar() {
                         Portfolio
                         </Link>
                     </li>
-                    <li class="nav-item nav-link">
+                    <li className="nav-item nav-link">
                         <Link
                                 to="/contact" className={window.location.pathname === "/contact" || window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
                         >
