@@ -44,8 +44,6 @@ function Education(){
                             <li><h5>Javascript</h5></li>
                             <li><h5>Jquery</h5></li>
                             <li><h5>MERN</h5></li>
-                            
-
                         </ul>
                         <ul classNameName="list">
                             <li><h5>MongoDB</h5></li>
@@ -54,8 +52,6 @@ function Education(){
                             <li><h5>PWA</h5></li>
                             <li><h5>React</h5></li>
                             <li><h5>Sequelize</h5></li>
-                            
-
                         </ul>
                         <ul classNameName="list">
                             <li><h5>Russian</h5></li>
