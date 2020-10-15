@@ -8,7 +8,7 @@
         "description":"Choose-your-own adventure game which tracks your progress and number of failed attempts.",
         "href":"https://exodus-escape.herokuapp.com/"
       },
-      "technologies": "Technologies Used : Node, Express, SocketIO, MySQL, Handlebars",
+      "technologies": "Technologies Used: Node, Express, SocketIO, MySQL, Handlebars",
       "pictures": "../../assets/PortfolioPics/EXODUS.png"
     },
     {
@@ -20,7 +20,7 @@
         "description":"Mobile-first application that allows the user to track covid outbreaks across the US.",
         "href":"https://corvus-cyber.github.io/SCOUT19/"
       },
-      "technologies": "Technologies Used : Third-Party API's, Materialize CSS, Javascript, Jquery, HTML",
+      "technologies": "Technologies Used: Third-Party API's, Materialize CSS, Javascript, Jquery, HTML",
       "pictures": "../../assets/PortfolioPics/Scout19.png"
     },
     {
@@ -32,7 +32,7 @@
         "description":"My first React application that allows the user to search through a directory",
         "href":"https://corvus-cyber.github.io/Employee_Directory_Assign19/"
       },
-      "technologies": "Technologies Used : React, React-router-dom, JSV",
+      "technologies": "Technologies Used: React, React-router-dom, JSV",
       "pictures": "../../assets/PortfolioPics/empDirectory.png"
     },
     {
@@ -44,7 +44,7 @@
         "description":"A PWA application that will track your budget both online and offline",
         "href":"https://budget-tracker-u-of-u.herokuapp.com/"
       },
-      "technologies": "Technologies Used : Express, Mongoose, MongoDB, Compression, Lite-server, Javascript",
+      "technologies": "Technologies Used: Express, Mongoose, MongoDB, Compression, Lite-server, Javascript",
       "pictures": "../../assets/PortfolioPics/budget.png"
     },
     {
@@ -56,7 +56,7 @@
         "description":"A website that uses mongodb in order to let users record their workouts and have them displayed on the dashboard",
         "href":"https://fitness-tracker-u-of-u.herokuapp.com/"
       },
-      "technologies": "Technologies Used : Express, Mongoose, MongoDB, Javascript",
+      "technologies": "Technologies Used: Express, Mongoose, MongoDB, Javascript",
       "pictures": "../../assets/PortfolioPics/fitness.png"
     },
     {
@@ -68,7 +68,7 @@
         "description":"A website that uses mySQL in order to let users record different 'dream burgers' and have them displayed on the dashboard, and allowing them to edit their status.",
         "href":"https://eat-da-burger-unit13.herokuapp.com/"
       },
-      "technologies": "Technologies Used : MySQL, Javascript, Express, Express-handlers",
+      "technologies": "Technologies Used: MySQL, Javascript, Express, Express-handlers",
       "pictures": "../../assets/PortfolioPics/burger-deployed.png"
     },
     {
@@ -80,7 +80,7 @@
         "description":"This application allows the user to create, edit, view and delete notes (CRUD). This note data is stored in the backend within a JSON file.",
         "href":"https://uounotetakerassign11.herokuapp.com/"
       },
-      "technologies": "Technologies Used : HTML, Bootstrap CSS, Node, Express",
+      "technologies": "Technologies Used: HTML, Bootstrap CSS, Node, Express",
       "pictures": "../../assets/PortfolioPics/note-taker.png"
     },
     {
@@ -92,7 +92,7 @@
         "description":"This application allows the user to create, edit, view and delete notes (CRUD). This note data is stored in the backend within a JSON file.",
         "href":"https://corvus-cyber.github.io/weather_dashboard_assign6/"
       },
-      "technologies": "Technologies Used : HTML, Bootstrap CSS, Javascript, Jquery, server-side API, localstorage",
+      "technologies": "Technologies Used: HTML, Bootstrap CSS, Javascript, Jquery, server-side API, localstorage",
       "pictures": "../../assets/PortfolioPics/weatherDashboard.png"
     },
     {
@@ -104,7 +104,7 @@
         "description":"This application allows the user edit a schedule that is color-coded based on whether the hour was past, present or future, changing as the day progresses.",
         "href":"https://corvus-cyber.github.io/Scheduler_Assign5/"
       },
-      "technologies": "Technologies Used : HTML, Bootstrap CSS, Javascript, Jquery",
+      "technologies": "Technologies Used: HTML, Bootstrap CSS, Javascript, Jquery",
       "pictures": "../../assets/PortfolioPics/Scheduler.png"
     }
 
