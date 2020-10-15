@@ -1,7 +1,7 @@
 import React from "react";
 import CLA from "../components/CLA/index"
 import Wrapper from "../components/Wrapper/index"
-import Portfolio from "../components/Applications/Portfolio"
+import Apps from "../components/Applications/Portfolio"
 
 function Portfolio(){
     return(
@@ -12,7 +12,7 @@ function Portfolio(){
                     <hr/>
                 </div>
             </div>
-            <Portfolio />
+            <Apps />
             <CLA/>
         </Wrapper>
     );

@@ -26,7 +26,7 @@ class CLA extends Component{
 
 render(){
   return(
-    <div>
+    <div style={{marginBottom: 40 + "%"}}>
       <div id="portfolio">
         
 
@@ -48,7 +48,7 @@ render(){
               </div>
             </div>
           </div>
-        </div>
+    </div>
   );
 }
 }

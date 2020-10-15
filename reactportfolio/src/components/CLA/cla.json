@@ -4,7 +4,7 @@
       "title": "Employee Tracker",
       "href": "https://github.com/corvus-cyber/Employee_Tracker_Assign12",
       "description":{ 
-        "description":"A terminal-based application that will allow the user to add departments, roles and employees to the database, view those different categories and update a chosen Employee's role. For bonus work I was also able to make it so that the user could update the chosen employee's manager and delete data from any of the three chosen categories (employee, role or department)."
+        "description": "add departments, roles and employees to the database, view those different categories and update a chosen Employee's role. For bonus work I was also able to make it so that the user could update the chosen employee's manager and delete data from any of the three chosen categories (employee, role or department)."
       },
       "technologies": "Technologies Used: MySQL, NodeJS, Javascript, Jquery",
       "pictures": "../../assets/PortfolioPics/EmployeeTracker.jpg"
@@ -14,7 +14,7 @@
         "title": "Team Website Builder",
         "href": "https://github.com/corvus-cyber/Employee_Summary_Assign10",
         "description":{ 
-          "description":"A terminal-based application that will begin with a series of questions and prompts, and upon answering them the user will be presented with a polished html that will contain their entered information inside of the output folder."
+          "description":"Application that will begin with a series of questions and prompts, and upon answering them the user will be presented with a polished html that will contain their entered information inside of the output folder."
         },
         "technologies": "Technologies Used: NodeJS, Javascript, Jquery, NPMs",
         "pictures": "../../assets/PortfolioPics/website-builder.jpg"
@@ -24,7 +24,7 @@
         "title": "ReadMe Builder",
         "href": "https://github.com/corvus-cyber/ReadMe_Generator_Assign9",
         "description":{ 
-          "description":"A terminal-based application that the user will access via the command line, fill out the required questions, and then they will be presented with a polished, professional Readme for their desired project."
+          "description":"The user will access via the command line, fill out the required questions, and then they will be presented with a polished, professional Readme for their desired project."
         },
         "technologies": "Technologies Used: NodeJS, Javascript, Inquirer npm",
         "pictures": "../../assets/PortfolioPics/readme.jpg"
