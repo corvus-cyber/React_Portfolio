@@ -12,7 +12,13 @@ function Portfolio(){
                     <hr/>
                 </div>
             </div>
-            <Apps />
+            <Apps/>
+            <div className="row m-4 justify-content-center">
+                <div className="col-md-6 mt-4 text-center title" id="Portfolio-heading">
+                    <h3>Command Line Applications</h3>
+                    <hr/>
+                </div>
+            </div>
             <CLA/>
         </Wrapper>
     );

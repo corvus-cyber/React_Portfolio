@@ -9,29 +9,14 @@ class CLA extends Component{
     cla
   };
 
-  componentDidMount(){
-    $('.list-group-item').on('click', function (e) {
-      e.preventDefault();
-      $(this).addClass('active').siblings().removeClass('active');
-    });
-
-    $('.show-btn').on('click', function () {
-      $('div.card-reveal[data-rel=' + $(this).data('rel') + ']').slideToggle('slow');
-    });
-
-    $('.card-reveal .close').on('click', function () {
-      $('div.card-reveal[data-rel=' + $(this).data('rel') + ']').slideToggle('slow');
-    });
-  }
 
 render(){
   return(
-    <div style={{marginBottom: 40 + "%"}}>
-      <div id="portfolio">
+      <div id="cla">
         
 
             <div className="text-center">
-              <div className="row" style={{marginRight: 0 + "px"}}>
+              <div className="row justify-content-center" style={{marginRight: 0 + "px"}}>
                 
                     {this.state.cla.map(app => (             
                       <Card
@@ -48,7 +33,6 @@ render(){
               </div>
             </div>
           </div>
-    </div>
   );
 }
 }

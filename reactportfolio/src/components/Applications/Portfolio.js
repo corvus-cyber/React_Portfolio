@@ -31,7 +31,7 @@ render(){
         
 
             <div className="text-center">
-              <div className="row" style={{marginRight: 0 + "px"}}>
+              <div className="row justify-content-center" style={{marginRight: 0 + "px"}}>
                 
                     {this.state.applications.map(app => (             
                       <Card

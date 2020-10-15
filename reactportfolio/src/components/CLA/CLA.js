@@ -3,6 +3,7 @@ import "./style.css"
 import Employee from "../../assets/PortfolioPics/EmployeeTracker.jpg"
 import Website from "../../assets/PortfolioPics/website-builder.jpg"
 import ReadME from "../../assets/PortfolioPics/readme.jpg"
+
 function CLA(){
     return(
     <div>
