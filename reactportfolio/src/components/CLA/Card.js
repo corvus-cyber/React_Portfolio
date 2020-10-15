@@ -8,7 +8,7 @@ import {
 export default function Card(props) {
     return (
         <div className="mr-2 ml-2">
-          <div className="col-md-4 mr-5 ml-5 mt-5 text-center justify-content-center">
+          <div className="col-md-4 mr-2 ml-2 mt-5 text-center justify-content-center">
             <div className="card" style={{width: 18 + "rem"}}>
                 <img src={process.env.PUBLIC_URL + props.image} className="card-img-top" alt="portfolio screenshot"/>
                     <div className="card-head">

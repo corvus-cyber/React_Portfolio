@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css"
+
 function Education(){
     return (
             // {/* <!--Education Section--> */}
@@ -37,7 +38,7 @@ function Education(){
                         <hr/>
                     </div>
                     <span>
-                        <ul classNameName="list">
+                        <ul classNameName="list" style={{listStyleType: "none", display:"inline-block"}}>
                             <li><h5>CSS</h5></li>
                             <li><h5>Express</h5></li>
                             <li><h5>HTML</h5></li>
@@ -45,7 +46,7 @@ function Education(){
                             <li><h5>Jquery</h5></li>
                             <li><h5>MERN</h5></li>
                         </ul>
-                        <ul classNameName="list">
+                        <ul classNameName="list" style={{listStyleType: "none", display:"inline-block"}}>
                             <li><h5>MongoDB</h5></li>
                             <li><h5>MySQL</h5></li>
                             <li><h5>Node.js</h5></li>
@@ -53,7 +54,7 @@ function Education(){
                             <li><h5>React</h5></li>
                             <li><h5>Sequelize</h5></li>
                         </ul>
-                        <ul classNameName="list">
+                        <ul classNameName="list" style={{listStyleType: "none", display:"inline-block"}}>
                             <li><h5>Russian</h5></li>
                         </ul>
                     </span>
