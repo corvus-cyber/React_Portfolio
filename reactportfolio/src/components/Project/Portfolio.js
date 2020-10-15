@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import applications from "./app.json";
-import Card from './Card';
+import Card from './Project';
 import $ from 'jquery';
 
 class Portfolio extends Component{
