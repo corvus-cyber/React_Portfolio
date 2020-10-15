@@ -1,0 +1,16 @@
+.Education {
+    background-color:#ffffff;
+    padding-top: 2%;
+    padding-left: 2%;
+    margin-bottom: 2%;
+    box-shadow: 0 0 5px
+}
+.indent {
+    text-indent: 4%;
+}
+.skills {
+    background-color:#ffffff;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-shadow: 0 0 5px
+}

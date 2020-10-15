@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/style.css"
+import "./style.css"
 import Contactpic from "../../assets/images/contactpic.jpg"
 import {
     FaGithubSquare,

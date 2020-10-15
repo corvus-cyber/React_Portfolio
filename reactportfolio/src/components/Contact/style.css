@@ -1,0 +1,9 @@
+.contactContainer{ 
+    box-shadow: 0 0 10px;
+    background-color: #ffffff;
+}
+
+.contactInfo {
+    text-align: center;
+    color: black;
+}

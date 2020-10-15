@@ -1,6 +1,5 @@
 import React from "react";
-import "../Styles/style.css"
-// import "./style.css"
+import "./style.css"
 
 function Background(){
     return (
