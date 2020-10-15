@@ -10,7 +10,7 @@ export default function Card(props) {
         <div className="mr-2 ml-2">
           <div className="col-md-4 mr-5 ml-5 mt-5 text-center justify-content-center">
             <div className="card" style={{width: 18 + "rem"}}>
-                <img src={props.image} className="card-img-top" alt="portfolio screenshot"/>
+                <img src={process.env.PUBLIC_URL + props.image} className="card-img-top" alt="portfolio screenshot"/>
                     <div className="card-head">
                       <h5>{props.title}</h5>
                     <button type="button" className="btn btn-custom show-btn " data-rel={props.id}>
