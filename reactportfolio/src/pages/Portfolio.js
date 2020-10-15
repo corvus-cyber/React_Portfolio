@@ -1,5 +1,5 @@
 import React from "react";
-import CLA from "../components/CLA/index"
+import CLA from "../components/CLA/CLA"
 import Wrapper from "../components/Wrapper/index"
 import Apps from "../components/Applications/Portfolio"
 

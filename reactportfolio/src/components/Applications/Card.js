@@ -6,14 +6,10 @@ import {
  
 
 export default function Card(props) {
-
-
-  console.log(props.image);
     return (
         <div className="mr-2 ml-2">
           <div className="col-md-4 mr-5 ml-5 mt-5 text-center justify-content-center">
             <div className="card" style={{width: 18 + "rem"}}>
-              {console.log(props.image)}
                 <img src={props.image} className="card-img-top" alt="portfolio screenshot"/>
                     <div className="card-head">
                       <h5>{props.title}</h5>
