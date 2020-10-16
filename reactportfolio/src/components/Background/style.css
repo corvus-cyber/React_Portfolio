@@ -1,4 +1,8 @@
 /* Formatting for all of the pages */
+.img-fluid{
+    min-width: 200px;    
+    width: 50%;
+}
 
 h1 {
     display: inline-block;

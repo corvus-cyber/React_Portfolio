@@ -16,7 +16,7 @@ function ContactContainer(){
                 <hr/>
                 <img src={Contactpic} className="img-fluid justify-content-center p-4 fade-in" alt=" Wyatt and his wife"/>
                 <h6>Looking to build the website of your dreams? </h6>
-                <h6>I am currently open to new opporunities as a front-end developer on your product or web development teams. </h6> 
+                <h6>I am currently open to new opportunities as a front-end developer on your product or web development teams. </h6> 
                 <h6>Feel free to reach out to me directly. I will respond by the end of the next business day.</h6>
             </div> 
             </div>
