@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Route, Link } from "react-router-dom";
+import { HashRouter, Route, Link} from "react-router-dom";
 import Footer from "./components/Footer/Footer"
 import Header from "./components/Header/Header"
 import Wrapper from "./components/Wrapper/index"
@@ -14,7 +14,7 @@ function App() {
       <div>
         <Header /> 
         <Wrapper>
-        <Route exact path="/" component={About} />
+          <Route exact path="/" component={About} />
           <Route exact path="/about" component={About}/>
           <Route exact path="/portfolio" component={Portfolio}/>
           <Route exact path="/contact" component={Contact}/>
