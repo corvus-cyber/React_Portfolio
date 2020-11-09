@@ -1,6 +1,18 @@
 [
     {
       "id": 1,
+      "title": "LoneWolf",
+      "href": "https://github.com/corvus-cyber/LoneWolf",
+      
+      "description":{ 
+        "description":"workout application built using MERN (MongoDB, Express, React and NodeJs) technologies. It serves as a guideline for bodyweight exercises that everyone can do at home with a gif and description for every exercise. It allows the user to easily build a customized workout based on muscle groups, as well as to track their progress such as weight, lean body mass, reps and time on a dynamically generated graph dashboard. ",
+        "href":"https://lonewolfstrong.herokuapp.com/"
+      },
+      "technologies": "Technologies Used: React, Express, MongoDB, NodeJS, React-vis, Auth0, React-strap",
+      "pictures": "/assets/PortfolioPics/LoneWolf.png"
+    },
+    {
+      "id": 1,
       "title": "Exodus",
       "href": "https://github.com/corvus-cyber/Project_Exodus",
       
