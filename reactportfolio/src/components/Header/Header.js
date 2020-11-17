@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 import Logo from "../../assets/logo/refined-logo.png"
-import Resume from "../../assets/resume/Developer.png"
+import Resume from "../../assets/resume/Developer.pdf"
 
 export default class Navbar extends Component {
     constructor(props){
